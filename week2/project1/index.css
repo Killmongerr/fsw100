@@ -1,21 +1,6 @@
-h1, h3 {font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+h1 {
+    color: blue;
 }
-h1 {color: darkgreen;}
-a {text-decoration: none; }
-div p{
-    text-transform: uppercase;
-}
-a:hover {
-    text-decoration: underline;
-}
-p {
-    font-size: larger;
-}
-body {
-    padding-left: 400px;
-    padding-right: 400px;
-}
-img {
-    float: left;
+table {
+    border: 1px solid black;
 }
