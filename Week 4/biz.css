@@ -1,11 +1,13 @@
 body {
-    background-color: blue;
+    background-image: url(https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/flexslider_full/public/slideshow_image/1-ferrari-355-engine.jpg?itok=i8nNU-4j);
+    font-family: 'Goldman', cursive;
 }
 .navvy {
-    position: fixed;
+    position: sticky;
     width: 100%; 
-    border: 5px solid black;
+    border: 5px solid white;
     font-size: xx-large;
+    color: red; 
 }
 .Home { 
     position: relative;
@@ -14,6 +16,7 @@ body {
 position: relative;
 left: 40%
 }
+
 .Owners {
     position: relative;
     left: 80%;
@@ -22,6 +25,7 @@ left: 40%
     position: relative;
     left: 35%;
     text-align: center;
+    color: red;
 }
 .lambo {
     position: absolute;
@@ -29,25 +33,54 @@ left: 40%
     width: 25%;
     height: 25%;
     bottom: 500px;
-    border: 5px solid black;
+    border: 5px solid white;
     margin: 5px;
 }
 .Martin {
     position: relative;
-    left: 690px;
+    left: 730px;
     display: block;
-    width: 25%;
+    width: 30%;
     height: 25%;
-    top: 90px;
-    border: 5px solid black;
+    top: 10px;
+    border: 5px solid white;
 }
 .bimmer {
 position: relative; 
 display: block;
 width: 25%;
 height: 25%;
-left: 1400px;
-bottom: 620px;
-border: 5px solid black;
+left: 1550px;
+bottom: 250px;
+border: 5px solid white;
 margin: -15px;
+}
+.certified {
+    font-size: xx-large;
+    position: relative;
+    float: right;
+    bottom: 230px;
+    color: red;
+}
+.servicetable > tr, td, th {
+    border: 5px solid white;
+    font-size: xx-large;
+    position: relative;
+    bottom: 260px;
+    color: red;
+}
+.services {
+    font-size: xx-large;
+    position: relative;
+    display: block;
+    bottom: 230px;
+    color: red;
+}
+.images {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+.contact{
+    font-size: xx-large;
+    color: red;
 }
