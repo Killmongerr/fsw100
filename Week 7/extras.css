@@ -1,0 +1,79 @@
+html {
+    font-family: 'Indie Flower', cursive;
+}
+@media screen  and (max-width: 740px){
+    body { 
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: red;
+        
+    }
+    #navbar3 {
+            font-size: x-large;
+            background-color: transparent ;
+            width: fit-content;
+            color: white;
+    }
+    a:link {
+        color: white;
+    }
+    a:visited {
+        color: white;
+    }
+    a:hover {
+        color: black;
+    }
+    a:active {
+        color: red;
+    }
+    #photogrid {
+        -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    }
+    #photogrid2 {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    #buyhere {
+        display: none;
+    }
+}
+  @media screen and (min-width: 741px){
+    body {
+        background-image: url("https://www.psu.com/wp/wp-content/uploads/2020/11/SpiderManMilesMorales-5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 1s;
+  }
+  #photogrid, #photogrid2, #photogrid3 {
+      display: none;
+  }
+  #navbar3 {
+    font-size: x-large;
+    background-color: transparent ;
+    width: fit-content;
+    color: white;
+}
+a:link {
+color: white;
+}
+a:visited {
+color: white;
+}
+a:hover {
+color: black;
+}
+a:active {
+color: red;
+}
+#buyhere {
+padding: 2px;
+display: inline-block;
+color: red;
+background-color: black;
+margin-top: 200px;
+font-size: large;
+}
+}

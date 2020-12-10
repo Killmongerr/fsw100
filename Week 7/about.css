@@ -1,0 +1,96 @@
+html {
+    font-family: 'Indie Flower', cursive;
+}
+@media screen  and (max-width: 740px){
+    body {
+        background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2020%2F11%2F12%2FMSM_MilesMorales_PS5_Spider-Men.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #navbar2 {
+        font-size: x-large;
+        background-color: transparent ;
+        width: fit-content;
+        color: white;
+    }
+    a:link {
+        color: white;
+    }
+    a:visited {
+        color: white;
+    }
+    a:hover {
+        color: coral;
+    }
+    a:active {
+        color: orange;
+    }
+   #pros {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: large;
+        margin-top: 20%;
+        background-color: coral;
+    }
+    table, th, td {
+        border: 2px solid black;
+    }
+    #moreinfo {
+        color: white;
+        font-size: large;
+        background-color: coral;
+    }
+    span {
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+}
+@media screen and (min-width: 741px){
+  body {
+      background-image: url("https://i.gadgets360cdn.com/large/miles_morales_gameplay_1600292492809.jpeg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      transition: 1s;
+  }
+  #navbar2 {
+    font-size: x-large;
+    background-color: transparent ;
+    width: fit-content;
+    color: coral;
+    transition: 1s;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: coral;
+}
+a:active {
+    color: orange;
+}
+#pros {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    margin-top: 20%;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+}
+table, th, td {
+    border: 2px solid black;
+}
+#moreinfo {
+    color: white;
+    font-size: x-large;
+    background-color:black;
+    transition: 1s;
+}
+span {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+}

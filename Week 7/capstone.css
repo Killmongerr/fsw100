@@ -1,0 +1,95 @@
+html {
+    font-family: 'Indie Flower', cursive;
+}
+@media screen  and (max-width: 740px){
+    body {
+        background-image: url("https://www.psu.com/wp/wp-content/uploads/2020/10/marvel-spider-man-miles-morales-ps4-ps5-wallpapers-15-1024x576.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+#navbar {
+    font-size: x-large;
+    width: fit-content;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: red;
+}
+a:selected {
+    color: orange;
+}
+#attention {
+text-align: center;
+font-size: xx-large;
+color: red;
+border: 2px solid black;
+margin: auto;
+max-width: fit-content;
+}
+#content {
+    text-align: center;
+    color: red;
+    font-size: xx-large;
+    background-color: black;
+}
+#video2 {
+    position: absolute;
+}
+}
+@media screen and (min-width: 741px){
+    body {
+            background-image: url("https://i.pinimg.com/originals/cc/2a/b9/cc2ab96622825e78d144686e96a8af58.jpg");
+            background-repeat: no-repeat;
+             background-size: 100%;
+             transition: 1s;
+    }
+    #navbar {
+        font-size: x-large;
+        width: fit-content;
+        background-color: black;
+        transition: 1s;
+    }
+    a:link {
+        color: black;
+    }
+    a:visited {
+        color: white;
+        transition: 1s;
+    }
+    a:hover {
+        color: red;
+    }
+    a:selected {
+        color: orange;
+    }
+    #attention {
+    text-align: center;
+    font-size: xx-large;
+    color: red;
+    border: 3px solid white;
+    margin: auto;
+    max-width: fit-content;
+    transition: 1s;
+    }
+    #content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+        align-items: center;
+        color: red;
+        font-size: xx-large;
+        background-color: black;
+        margin: 10px;
+        max-width: fit-content;
+        float: right;
+    }    
+    #video {
+        float: right;
+        transition: 3s;
+    }
+}
